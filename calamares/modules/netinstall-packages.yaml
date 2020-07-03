@@ -4,226 +4,59 @@
   hidden: false
   selected: false
   packages:
-    - name: "Linux kernel"
-      description: "Installs the latest linux kernel"
-      critical: false
-      hidden: false
-      selected: false
-      expanded: true
-      packages:
-        - linux
-    - name: "Linux-lts kernel"
-      description: "Installs the linux-lts kernel"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - linux-lts
-    - name: "Linux-hardened kernel"
-      description: "Installs the linux-hardened kernel"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - linux-hardened
-    - name: "Linux-zen kernel"
-      description: "Installs the linux-zen kernel"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - linux-zen
-    - name: "Linux kernel with nvidia"
-      description: "Installs linux kernel with nvidia"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - linux
-        - nvidia
-        - nvidia-settings
-        - nvidia-utils
-    - name: "linux-lts kernel with nvidia-lts"
-      description: "Installs nvidia-lts and linux-lts kernel"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - linux-lts
-        - nvidia-lts
-        - nvidia-settings
-        - nvidia-utils
-    - name: "Cuda toolkit"
-      description: "Installs the Cuda Toolkit"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - cuda
-    - name: "Intel-ucode"
-      description: "Installs intel-ucode - see Arch wiki microcode"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - intel-ucode
-    - name: "Amd-ucode"
-      description: "Installs amd-ucode - see Arch wiki microcode"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - amd-ucode
+    - linux
+    - linux-lts
+    - linux-hardened
+    - linux-zen
+    - nvidia
+    - nvidia-lts
+    - nvidia-settings
+    - nvidia-utils
+    - cuda
+    - intel-ucode
+    - amd-ucode
 - name: "Desktop"
   description: "List Of Available Desktop Environments"
   critical: false
   hidden: false
   selected: false
   packages:
-    - name: "Budgie"
-      description: "Installs budgie desktop"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - budgie-desktop
-        - budgie-extras
-        - dconf-editor
-    - name: "Cinnamon"
-      description: "Installs cinnamon desktop"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - cinnamon
-        - cinnamon-translations
-    - name: "Deepin"
-      description: "Installs deepin desktop"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - deepin
-        - deepin-extra
-    - name: "Gnome"
-      description: "Installs gnome desktop"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - gnome
-        - gnome-extra
-    - name: "Lxqt"
-      description: "Installs lxqt desktop"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - lxqt
-    - name: "Mate"
-      description: "Installs mate desktop"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - mate
-        - mate-extra
-        - mate-tweak
-    - name: "Plasma"
-      description: "Installs plasma desktop"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - plasma-meta
-        - kde-applications-meta
-        - kde-system-meta
-        - kdeconnect
-        - kdenetwork-filesharing
-        - kde-education-meta
-        - kde-games-meta
-        - kde-graphics-meta
-        - kde-multimedia-meta
-        - kde-network-meta
-        - kde-pim-meta
-        - kde-sdk-meta
-        - kde-utils-meta
-        - kde-webdev-meta
-    - name: "Xfce"
-      description: "Installs xfce desktop"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - xfce4
-        - xfce4-goodies
+    - budgie-desktop
+    - budgie-extras
+    - cinnamon
+    - cinnamon-translations
+    - deepin
+    - deepin-extra
+    - gnome
+    - gnome-extra
+    - lxqt
+    - mate
+    - mate-extra
+    - mate-tweak
+    - plasma-meta
+    - kde-applications-meta
+    - kde-system-meta
+    - xfce4
+    - xfce4-goodies
 - name: "Window Manager"
   description: "List Of Available Window Managers"
   critical: false
   hidden: false
   selected: false
   packages:
-    - name: "Awesome"
-      description: "Installs awesome Window Manager"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - awesome
-    - name: "Bspwm"
-      description: "Installs bspwm Window Manager"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - bspwm
-    - name: "Herbstluftwm"
-      description: "Installs herbstluftwm Window Manager"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - herbstluftwm
-    - name: "i3"
-      description: "Installs i3 Window Manager"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - i3-gaps
-        - i3status
-    - name: "Jwm"
-      description: "Installs jwm Window Manager"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - jwm
-    - name: "Openbox"
-      description: "Installs openbox Window Manager"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - openbox
-    - name: "Qtile"
-      description: "Installs qtile Window Manager"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - qtile
-    - name: "Xmonad"
-      description: "Installs xmonad Window Manager"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - xmonad
-        - xmonad-contrib
-        - haskell-dbus
-        - xmonad-log
-        - xmonad-utils
+    - awesome
+    - bspwm
+    - herbstluftwm
+    - i3-gaps
+    - i3status
+    - jwm
+    - openbox
+    - qtile
+    - xmonad
+    - xmonad-contrib
+    - haskell-dbus
+    - xmonad-log
+    - xmonad-utils
 - name: "Terminal"
   description: "Terminals"
   critical: false
@@ -361,89 +194,27 @@
   hidden: false
   selected: false
   packages:
-    - name: "Abiword"
-      description: "Abiword"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - abiword
-    - name: "Calibre"
-      description: "Calibre"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - calibre
-    - name: "Calligra"
-      description: "Office Suite"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - calligra
-        - calligra-plan
-    - name: "Focuswriter"
-      description: "Focuswriter"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - focuswriter
-    - name: "Ghostwriter"
-      description: "Ghostwriter"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - ghostwriter
-    - name: "Gnumeric"
-      description: "Gnumeric"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - gnumeric
-    - name: "Libre Office Fresh"
-      description: "Installs libre office fresh (Unstable) # unstable conflicts with stable"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - libreoffice-fresh
-        - libreoffice-fresh-$LOCALE
-        - hunspell-$LOCALE
-    - name: "Libre Office Still"
-      description: "Installs libre office still (Stable)"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - libreoffice-still
-        - libreoffice-still-$LOCALE
-        - hunspell-$LOCALE
-    - name: "Scribus"
-      description: "Scribus"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - scribus
-    - name: "WPS Office"
-      description: "Installs wps office"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - wps-office
-        - wps-office-mime
-        - ttf-wps-fonts
+    - abiword
+    - calibre
+    - calligra
+    - calligra-plan
+    - focuswriter
+    - ghostwriter
+    - gnumeric
+    - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
+    - libreoffice-still
+    - libreoffice-still-$LOCALE
+    - hunspell-$LOCALE
+    - scribus
+    - wps-office
+    - wps-office-mime
+    - ttf-wps-fonts
 - name: "Utilities"
   description: "List Of Utilities And Apps"
   critical: false
   hidden: false
   selected: false
-  expanded: true
   packages:
     - albert
     - archey3
@@ -474,14 +245,12 @@
     - simplescreenrecorder
     - scrot
     - meld
-    - wireshark-qt
     - youtube-dl
     - dmenu
     - feh
     - gmrun
     - picom
     - vicious
-    - darkos-tweaks
     - volumeicon
     - pavucontrol
     - blueberry
@@ -580,7 +349,6 @@
     - polkit
     - arandr
     - asciinema
-    - bash-completion
     - baobab
     - catfish
     - cronie
@@ -611,87 +379,49 @@
   hidden: false
   selected: false
   packages:
-    - name: "Accessories"
-      description: "Accessories"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - cheese
-        - liferea
-        - mediainfo
-        - mcomix
-        - pdfarranger
-    - name: "Fonts"
-      description: "Fonts"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - terminus-font
-        - awesome-terminal-fonts
-        - ttf-dejavu
-        - ttf-droid
-        - ttf-hack
-        - ttf-roboto
-        - ttf-ubuntu-font-family
-        - ttf-inconsolata
-        - ttf-liberation
-        - terminus-font
-        - ttf-bitstream-vera
-    - name: "Git"
-      description: "Git applications"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - gitg
-        - gitfiend
-        - gitkraken
-    - name: "Password Manager"
-      description: "Password managers"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - keepassxc
-        - lastpass-cli
-    - name: "Privacy"
-      description: "Applications that ensure your privacy"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - tor
-        - privoxy
-        - torsocks
-    - name: "Usb"
-      description: "Usb writing applications"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - imagewriter
-        - woeusb
-    - name: "Virtualbox for Linux kernel"
-      description: "Installs virtualbox for linux kernel"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - virtualbox
-        - virtualbox-host-dkms
-        - linux-headers
-    - name: "Virtualbox for Linux-lts kernel"
-      description: "Installs virtualbox for linux-lts kernel"
-      critical: false
-      hidden: false
-      selected: false
-      packages:
-        - virtualbox
-        - virtualbox-host-dkms
-        - linux-lts-headers
-        - linux-lts
+    - kdeconnect
+    - kdenetwork-filesharing
+    - kde-education-meta
+    - kde-games-meta
+    - kde-graphics-meta
+    - kde-multimedia-meta
+    - kde-network-meta
+    - kde-pim-meta
+    - kde-sdk-meta
+    - kde-utils-meta
+    - kde-webdev-meta
+    - cheese
+    - liferea
+    - mediainfo
+    - mcomix
+    - pdfarranger
+    - terminus-font
+    - awesome-terminal-fonts
+    - ttf-dejavu
+    - ttf-droid
+    - ttf-hack
+    - ttf-roboto
+    - ttf-ubuntu-font-family
+    - ttf-inconsolata
+    - ttf-liberation
+    - terminus-font
+    - ttf-bitstream-vera
+    - gitg
+    - gitfiend
+    - gitkraken
+    - keepassxc
+    - lastpass-cli
+    - tor
+    - privoxy
+    - torsocks
+    - imagewriter
+    - woeusb
+    - virtualbox
+    - virtualbox-host-dkms
+    - linux-headers
+    - virtualbox
+    - virtualbox-host-dkms
+    - linux-lts-headers
 - name: "Theming"
   description: "Themes , icons , cursors"
   critical: false
