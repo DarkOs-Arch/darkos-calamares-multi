@@ -93,7 +93,6 @@
     - geary
     - hexchat
     - evolution
-    - google-chrome
     - chromium
     - qbittorrent
     - ktorrent
@@ -264,7 +263,6 @@
     - ocs-url
     - mugshot
     - menulibre
-    - volumeicon
     - lxappearance
     - lxappearance-gtk3
     - lxappearance-obconf
@@ -309,8 +307,6 @@
     - powertop
     - reflector
     - redshift
-    - rofi
-    - rxvt-unicode
     - expac
     - file-roller
     - filezilla
@@ -327,13 +323,11 @@
     - gpick
     - gtop
     - hardinfo
-    - hddtemp
     - htop
     - hunspell
     - hunspell-en
     - hyphen
     - hyphen-en
-    - grsync
     - intltool
     - iw
     - jsoncpp
@@ -342,7 +336,6 @@
     - lsb-release
     - mlocate
     - nomacs
-    - oh-my-zsh-git
     - p7zip
     - plank
     - playerctl
