@@ -30,14 +30,27 @@
     - gnome
     - gnome-extra
     - lxqt
+    - lxde
     - mate
     - mate-extra
     - mate-tweak
     - plasma-meta
     - kde-applications-meta
     - kde-system-meta
+    - kde-accessibility-meta
+    - kdeconnect
+    - kdenetwork-filesharing
+    - kde-education-meta
+    - kde-games-meta
+    - kde-graphics-meta
+    - kde-multimedia-meta
+    - kde-network-meta
+    - kde-pim-meta
+    - kde-sdk-meta
+    - kde-webdev-meta
     - xfce4
     - xfce4-goodies
+    - enlightenment
 - name: "Window Manager"
   description: "List Of Available Window Managers"
   critical: false
@@ -227,6 +240,7 @@
     - grsync
     - gtop
     - gufw
+    - ufw
     - hddtemp
     - kbackup
     - lm_sensors
@@ -267,14 +281,6 @@
     - lxappearance-gtk3
     - lxappearance-obconf
     - lxappearance-obconf-gtk3
-    - yad
-    - python-pyparted
-    - pamac-aur
-    - mintstick-git
-    - inxi
-    - grub-customizer
-    - hardcode-fixer-git
-    - downgrade
     - archiso
     - wttr
     - glxinfo
@@ -294,7 +300,6 @@
     - timeshift
     - tlp
     - flameshot
-    - rxvt-unicode
     - rofi
     - polkit-gnome
     - python2-dbus
@@ -349,23 +354,19 @@
     - dex
     - dmidecode
     - conky
-    - tumbler
-    - ffmpegthumbnailer
-    - freetype2
-    - libgsf
-    - libopenraw
-    - poppler-glib
-    - poppler-qt5
-    - gvfs
-    - gvfs-afc
-    - gvfs-gphoto2
-    - gvfs-mtp
-    - gvfs-nfs
-    - gvfs-smb
     - mtpfs
     - udiskie
     - udisks2
     - xdg-user-dirs
+    - yad
+    - yay-bin
+    - inxi
+    - mintstick-git
+    - pamac-aur
+    - python-pyparted
+    - trizen
+    - grub-customizer
+    - font-manager-git
 - name: "Applications"
   description: "List Of Available Applications"
   critical: false
@@ -399,6 +400,15 @@
     - ttf-liberation
     - terminus-font
     - ttf-bitstream-vera
+    - adobe-source-sans-pro-fonts
+    - noto-fonts
+    - ttf-dejavu
+    - ttf-droid
+    - ttf-hack
+    - ttf-inconsolata
+    - ttf-liberation
+    - ttf-roboto
+    - ttf-ubuntu-font-family
     - gitg
     - gitfiend
     - gitkraken
@@ -423,6 +433,7 @@
   packages:
     - adapta-gtk-theme
     - arc-icon-theme
+    - arc-gtk-theme
     - breeze
     - capitaine-cursors
     - faba-icon-theme

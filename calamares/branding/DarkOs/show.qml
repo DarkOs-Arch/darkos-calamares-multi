@@ -31,7 +31,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 5000
+        interval: 20000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -44,7 +44,7 @@ Presentation
             source: "welcome-1.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
-			      anchors.centerIn: parent
+ 	    anchors.centerIn: parent
         }
 
     }
@@ -57,7 +57,7 @@ Presentation
             source: "welcome-2.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+            anchors.centerIn: parent
         }
 
     }
@@ -69,7 +69,7 @@ Presentation
             source: "welcome-3.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+	    anchors.centerIn: parent
         }
 
     }
@@ -81,7 +81,7 @@ Presentation
             source: "welcome-4.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+            anchors.centerIn: parent
         }
 
     }
@@ -93,7 +93,7 @@ Presentation
             source: "welcome-5.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+	    anchors.centerIn: parent
         }
 
     }
@@ -105,7 +105,7 @@ Presentation
             source: "welcome-6.png"
             width: 800; height: 450
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+	    anchors.centerIn: parent
         }
 
     }
@@ -114,11 +114,22 @@ Presentation
 
         Image {
             id: background8
-            source: "welcome-7.png"
-            width: 800; height: 450
+            source: "welcome-8.png"
+            width: 472; height: 300
             fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+            anchors.centerIn: parent
         }
+	Text {
+            anchors.horizontalCenter: background8.horizontalCenter
+            anchors.top: background8.bottom
+            text: "Wallpapers<br/>"+
+                  "DarkOs Has A Collection Of Decent Wallpapers.<br/>"+
+                  "Inspired By The Witcher Series."
+            wrapMode: Text.WordWrap
+            width: 800
+            horizontalAlignment: Text.Center
+
+	}
 
     }
 
@@ -126,11 +137,23 @@ Presentation
 
         Image {
             id: background9
-            source: "welcome-8.png"
-            width: 800; height: 450
+            source: "welcome-7.png"
+            width: 472; height: 300
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+	    anchors.centerIn: parent
         }
+	Text {
+            anchors.horizontalCenter: background9.horizontalCenter
+            anchors.top: background9.bottom
+            text: "Community<br/>"+
+                  "DarkOs Is A Community Guided OS .<br/>"+
+                  "Wanna Improve DarkOs Join The Community."
+            wrapMode: Text.WordWrap
+            width: 800
+            horizontalAlignment: Text.Center
+
+        }
+
 
     }
 
@@ -139,10 +162,22 @@ Presentation
         Image {
             id: background10
             source: "welcome-9.png"
-            width: 800; height: 450
+            width: 472; height: 300
             fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parent
+	    anchors.centerIn: parent
         }
+	Text {
+            anchors.horizontalCenter: background10.horizontalCenter
+            anchors.top: background10.bottom
+            text: "Editions<br/>"+
+                  "DarkOs Has 3 Edition.<br/>"+
+                  "One Hell - Soopertrack - Schmedding "
+            wrapMode: Text.WordWrap
+            width: 800
+            horizontalAlignment: Text.Center
+
+        }
+
 
     }
 
@@ -151,10 +186,21 @@ Presentation
         Image {
             id: background11
             source: "welcome-10.png"
-            width: 800; height: 450
+            width: 472; height: 300
             fillMode: Image.PreserveAspectFit
-      anchors.centerIn: parent
+            anchors.centerIn: parent
         }
+	Text {
+            anchors.horizontalCenter: background11.horizontalCenter
+            anchors.top: background11.bottom
+            text: "Enjoy Using Linux<br/>"+
+                  "That's DarkOs Goal.<br/>"
+            wrapMode: Text.WordWrap
+            width: 800
+            horizontalAlignment: Text.Center
+
+        }
+
 
     }
     function onActivate() {
