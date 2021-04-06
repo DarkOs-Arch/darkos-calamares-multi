@@ -6,8 +6,8 @@ strings:
     shortProductName:    DarkOs
     version:             טטא 
     shortVersion:        טטא
-    versionedName:       DarkOs Linux "SooperTrack"
-    shortVersionedName:  DarkOS
+    versionedName:       DarkOs "SooperTrack"
+    shortVersionedName:  DarkOs
     bootloaderEntryName: DarkOs
     productUrl:          https://darkos-arch.sourceforge.io
     supportUrl:          https://darkos-arch.sourceforge.io

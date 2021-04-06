@@ -127,22 +127,25 @@
     - discord
     - krdc
     - qtox
+    - hexchat
     - remmina
     - riot-desktop
     - telegram-desktop
     - tigervncs
     - wire-desktop
-- name: "Development"
-  description: "List Of Available Development software"
+- name: "Editors"
+  description: "All Text / Development Editors"
   critical: false
   hidden: false
   selected: false
   packages:
+    - emacs
     - atom
     - geany-plugins
     - geany
     - intellij-idea-community-edition
     - kdevelop
+    - kate
     - leafpad
     - notepadqq
     - xed
@@ -281,6 +284,14 @@
     - lxappearance-gtk3
     - lxappearance-obconf
     - lxappearance-obconf-gtk3
+    - yad
+    - python-pyparted
+    - pamac-aur
+    - mintstick-git
+    - inxi
+    - grub-customizer
+    - hardcode-fixer-git
+    - downgrade
     - archiso
     - wttr
     - glxinfo
@@ -300,6 +311,7 @@
     - timeshift
     - tlp
     - flameshot
+    - rxvt-unicode
     - rofi
     - polkit-gnome
     - python2-dbus
@@ -354,6 +366,19 @@
     - dex
     - dmidecode
     - conky
+    - tumbler
+    - ffmpegthumbnailer
+    - freetype2
+    - libgsf
+    - libopenraw
+    - poppler-glib
+    - poppler-qt5
+    - gvfs
+    - gvfs-afc
+    - gvfs-gphoto2
+    - gvfs-mtp
+    - gvfs-nfs
+    - gvfs-smb
     - mtpfs
     - udiskie
     - udisks2
@@ -368,7 +393,7 @@
     - grub-customizer
     - font-manager-git
 - name: "Applications"
-  description: "List Of Available Applications"
+  description: "Accessories , Fonts , Privacy , Git , VirtualBox"
   critical: false
   hidden: false
   selected: false
@@ -483,7 +508,7 @@
 - name: "Security"
   description: "Pentesting Tools"
   critical: false
-  hidden: false
+  hidden: true
   selected: false
   packages:
     - nmap

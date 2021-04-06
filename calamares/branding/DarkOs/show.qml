@@ -31,7 +31,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 20000
+        interval: 5000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -162,7 +162,7 @@ Presentation
         Image {
             id: background10
             source: "welcome-9.png"
-            width: 472; height: 300
+            width: 800; height: 450
             fillMode: Image.PreserveAspectFit
 	    anchors.centerIn: parent
         }
@@ -193,7 +193,7 @@ Presentation
 	Text {
             anchors.horizontalCenter: background11.horizontalCenter
             anchors.top: background11.bottom
-            text: "Enjoy Using Linux<br/>"+
+            text: "Enjoy Using GNU/Linux<br/>"+
                   "That's DarkOs Goal.<br/>"
             wrapMode: Text.WordWrap
             width: 800
